@@ -1,0 +1,54 @@
+* {
+    background-color:
+}
+
+
+#header {
+    float: left;
+    background-color: orangered;
+    padding: 10px;
+    width: 325px;
+    height:100px;
+    color: #fff;
+    font-family: "Times New Roman", "Times", serif;
+    
+}
+
+#intro {
+    clear: both;
+    background-color: Orange;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    color: #003300;
+    font-family: "Times New Roman", "Times", serif;
+}
+
+#randm {
+    float: left;
+    width:200px;
+    height:250px;
+    background-color: #005500;
+    text-align: center;
+}
+
+.image {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#score {
+clear: both;
+width: 250px;
+height: 100px;
+background-color: teal;
+}
+
+#guess {
+    clear: both;
+    width: 200px;
+    height: 250px;
+    background-color: #005500; 
+}
+
