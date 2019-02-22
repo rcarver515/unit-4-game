@@ -1,0 +1,33 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            var title = "Color Purple";
+            var queryURL = "http://www.omdbapi.com/?t=" + title + "&apikey=trilogy";
+            // The film TITLE [RATING] (released RELEASED) has a runtime of RUNTIME.
+
+            // AJAX goes here
+            $.get(queryURL).then(function (response) {
+                console.log("The film " + response.Title + " [" + response.Rated + "] (released " + response.Released + ") has a runtime of " + response.Runtime + ".");
+            });
+
+            console.log(queryURL);
+
+            var x = "y";
+            var y = "z";
+            var z = 456 + 345 * 2;
+
+            console.log(x, y, z);
+        });
+    </script>
+
+</body>
+
+</html>

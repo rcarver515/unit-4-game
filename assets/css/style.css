@@ -1,5 +1,6 @@
 * {
-    background-color:
+    background-color:;
+    clear:;
 }
 
 
@@ -8,6 +9,7 @@
     background-color: orangered;
     padding: 10px;
     width: 325px;
+    margin: 25px;
     height:100px;
     color: #fff;
     font-family: "Times New Roman", "Times", serif;
@@ -20,14 +22,16 @@
     padding: 10px;
     width: 400px;
     height: 350px;
+    margin: 25px;
     color: #003300;
     font-family: "Times New Roman", "Times", serif;
 }
 
-#randm {
+.row {
     float: left;
     width:200px;
     height:250px;
+    margin: 25px;
     background-color: #005500;
     text-align: center;
 }
@@ -39,16 +43,18 @@
 }
 
 #score {
-clear: both;
-width: 250px;
-height: 100px;
-background-color: teal;
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin: 25px;
+    background-color: teal;
 }
 
 #guess {
-    clear: both;
+    float: left;
     width: 200px;
     height: 250px;
+    margin: 25px;
     background-color: #005500; 
 }
 
